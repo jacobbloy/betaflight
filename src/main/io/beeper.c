@@ -139,7 +139,7 @@ static const uint8_t beep_readyBeep[] = {
 };
 // 2 fast short beeps
 static const uint8_t beep_2shortBeeps[] = {
-    5, 5, 5, 5, BEEPER_COMMAND_STOP
+    3500, 2000, 3500, 2000, BEEPER_COMMAND_STOP
 };
 // 2 longer beeps
 static const uint8_t beep_2longerBeeps[] = {
